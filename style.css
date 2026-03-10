@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    /* This makes the p5.js canvas sit on top of the image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: contrast(1.1) brightness(1.1);
+
+}
